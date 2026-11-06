@@ -1,0 +1,20 @@
+.git
+.github
+.idea/
+.vscode/
+*.tmp
+*.log
+cookie_*.txt
+.env
+.env.local
+
+# CRITICAL: Always ensure application source and config are included in Docker image
+!config/
+!config/database.php
+!database/
+!includes/
+!assets/
+!auth/
+!student/
+!admin/
+
